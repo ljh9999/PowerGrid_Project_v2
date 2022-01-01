@@ -1,0 +1,3 @@
+/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/CMakeFiles/yolov5.dir

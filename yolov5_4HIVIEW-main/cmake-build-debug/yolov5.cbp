@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="yolov5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov5">
+				<Option output="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/libyolov5.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/opencv/inc"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/hiSDK/inc"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/hiSDK/nnie"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/inc/common"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/inc/nnie"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 yolov5"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolov5/fast">
+				<Option output="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/libyolov5.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/opencv/inc"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/hiSDK/inc"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/hiSDK/nnie"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/inc/common"/>
+					<Add directory="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/inc/nnie"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 yolov5/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/ImageResize.cpp">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/ImageResize.h">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/Yolov5.cpp">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/Yolov5.h">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/src/common/sample_comm_ive.c">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/src/common/sample_comm_nnie.c">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/src/common/sample_comm_svp.c">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/src/nnie/sample_nnie.c">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/svp/src/nnie/sample_svp_nnie_software.c">
+			<Option target="yolov5"/>
+		</Unit>
+		<Unit filename="/home/ljh/Documents/毕业相关/yolov5_4HIVIEW-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
