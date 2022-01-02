@@ -154,7 +154,7 @@ int yolo_detect_cam(yolo_boxs_t _boxs[YOLO_CHN_MAX])
                 return -1;
             }
             patch_list.clear();
-            
+
             //    得到原图的宽高
             int srcHeight, srcWidth, subHeight, subWidth;
             srcHeight = frame.rows;   // 获取原图宽、高
@@ -254,8 +254,8 @@ int yolo_detect_cam(yolo_boxs_t _boxs[YOLO_CHN_MAX])
             oo << std::setw(4) << all_context << std::endl;   // std::setw(4) 设置格式
             std::time_t t = std::time(0);  // t is an integer type
             string timestamp = to_string(t);
-//            string out_path = "/app/pics/" + timestamp + ".jpg";
-            cv::imwrite("/home/pics/test/"+timestamp+".jpg", frame);
+            cv::imwrite("/home/pics/"+timestamp+".jpg", frame);
+//            cv::imwrite("/home/pics/test/"+timestamp+".jpg", frame);
             anInterface.ParseJson(timestamp, timestamp ,json_path2);
 
             if(std::remove(json_path2.c_str()) == 0){
