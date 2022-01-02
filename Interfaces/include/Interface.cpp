@@ -500,8 +500,8 @@ int Interface::ParseJson(string pic_path,string save_path, string json_path) {
      * */
     json all_info;
     bool defect = false;
-    string tmp_path = "/app/pics/" + save_path + ".jpg";
-    cv::Mat raw_img = cv::imread("/app/pics/"+pic_path);
+    string tmp_path = "/home/pics/test/" + save_path + ".jpg";
+    cv::Mat raw_img = cv::imread("/home/pics/"+pic_path+".jpg");
 //    cv::Mat raw_img (1080, 1920, CV_8UC3, cv::Scalar(255, 255, 255));
     /// 保存record3.json
     json all_info3;
@@ -559,7 +559,7 @@ int Interface::ParseJson(string pic_path,string save_path, string json_path) {
         // 将预测结果保存到txt中
         ofstream pre_label_file;
         string predict_label_path;
-        predict_label_path = "/app/pics/" +  save_path  + ".txt";
+        predict_label_path = "/home/pics/test/" +  save_path  + ".txt";
         pre_label_file.open(predict_label_path, ios::app);
         if (pre_label_file.is_open())
         {
